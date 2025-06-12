@@ -1,4 +1,4 @@
-const TextField = ({label, name, value, onChange, placeholder, error }) => {
+const TextFields = ({label, name, value, onChange, placeholder, error }) => {
     
     return (
         <div className="textfield-container">
@@ -16,4 +16,4 @@ const TextField = ({label, name, value, onChange, placeholder, error }) => {
     )
 }
 
-export default TextField;
+export default TextFields;

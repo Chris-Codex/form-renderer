@@ -1,4 +1,4 @@
-const CheckField = ({label, name, value, onChange, error}) => {
+const CheckedField = ({label, name, value, onChange, error}) => {
     return (
         <div style={{ marginBottom: '1rem' }}>
             <label>
@@ -17,4 +17,4 @@ const CheckField = ({label, name, value, onChange, error}) => {
     )
 }
 
-export default CheckField;
+export default CheckedField;

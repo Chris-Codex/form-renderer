@@ -1,4 +1,4 @@
-const SelectedField = ({label, name, value, onChange, options, error }) => {
+const SelectField = ({label, name, value, onChange, options, error }) => {
     return (
         <div className="select-card">
             <label className="label">{label}</label><br /><br />
@@ -21,4 +21,4 @@ const SelectedField = ({label, name, value, onChange, options, error }) => {
     )
 }
 
-export default SelectedField;
+export default SelectField;

@@ -1,5 +1,5 @@
 import FormRenderer from "./components/FormRenderer"
-import { schema } from "./formSchema/schema"
+import { schema } from "./schema/schema"
 
 
 function App() {

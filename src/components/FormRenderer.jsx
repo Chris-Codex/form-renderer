@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FORM_Field_COMPONENTS } from "../../utils/formFieldRegistry";
+import { FORM_Field_COMPONENTS } from "../utils/formFieldRegistry";
 
 const FormRenderer = ({ schema }) => {
     const [formData, setFormData] = useState(() => {
