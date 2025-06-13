@@ -18,6 +18,7 @@ const FormRenderer = ({ schema }) => {
         setFormData(prev => ({...prev, [name]: value}));
     }
 
+
     const formValidation = () => {
         const currentError = {};
 
@@ -49,7 +50,8 @@ const FormRenderer = ({ schema }) => {
         }
     }
 
-    const handleClearData = () => {
+
+    const handleFormReset = () => {
         const resetData = {};
 
         schema.fields.forEach((field) => {
@@ -60,6 +62,7 @@ const FormRenderer = ({ schema }) => {
         setErrors({})
         setSubmittedData(null)
     }
+
 
     return (
         <div className="form-wrapper">
@@ -85,10 +88,10 @@ const FormRenderer = ({ schema }) => {
                 }
                 <div className="btns-wrapper">
                     <button type="submit" className="submit_btn">Submit</button>
-                    <button type="button" className="clear_btn" onClick={handleClearData}>Clear Form</button>
+                    <button type="button" className="clear_btn" onClick={handleFormReset}>Clear Form</button>
                 </div>
             </form>
-            {formValidation && (
+            {submittedData && (
                 <div className="submitted-data-wrapper">
                     {submittedData}
                 </div>

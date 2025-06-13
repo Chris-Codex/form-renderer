@@ -10,6 +10,7 @@ body {
   align-items: center;
   background-color: #00b4d8;
   padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 
@@ -19,22 +20,24 @@ body {
   padding: 40px;
   background-color: #ffffff;
   border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 
 .textfield-container input {
   width: 100%;
-  height: 35px;
+  height: 45px;
   margin-bottom: 20px;
   outline: none;
   padding-left: 20px;
   border: 1px solid #b6b6b6;
   font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .select-card select {
   width: 100%;
-  height: 35px;
+  height: 45px;
   margin-bottom: 20px;
   outline: none;
   border: 1px solid #b6b6b6;
@@ -44,7 +47,7 @@ body {
 
 .number-input-wrapper input {
   width: 100%;
-  height: 35px;
+  height: 45px;
   margin-bottom: 20px;
   outline: none;
   border: 1px solid #b6b6b6;
@@ -54,13 +57,14 @@ body {
 
 .text-area-wrapper textarea {
   width: 100%;
-  height: 55px;
+  height: 85px;
   margin-bottom: 20px;
   outline: none;
   border: 1px solid #b6b6b6;
   padding-top: 15px;
   padding-left: 20px;
   font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .btns-wrapper {
